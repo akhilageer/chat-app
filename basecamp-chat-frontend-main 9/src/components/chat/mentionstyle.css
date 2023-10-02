@@ -1,0 +1,72 @@
+/**/
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .comments-textarea__control {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .comments-textarea__input {
+    background-color: #fff;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    padding: 9px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #dedede;
+  }
+  .comments-textarea__input:focus,
+  .comments-textarea__input:active {
+    outline: none;
+    border: 1px solid #3fb9de;
+  }
+  .comments-textarea__input::placeholder {
+    color: #a4b0be;
+    font-size: 14px;
+  }
+  .comments-textarea__highlighter {
+    padding: 10px;
+  }
+  .comments-textarea__suggestions__list {
+    background-color: #fff;
+    font-size: 14px;
+    max-height: 200px;
+    overflow: auto;
+  }
+  div[class^="css-4-0-1"] {
+    max-height: 20rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    overflow-y: auto;
+  }
+  .comments-textarea__suggestions__item {
+    padding: 5px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  .comments-textarea__suggestions__item-focused {
+    background-color: #daf4fa;
+  }
+  .send-text {
+    padding: 1rem 0 0;
+    color: #8f908f;
+    margin-bottom: 0;
+    background-color: white;
+    border: 0;
+  }
+  .comment-image {
+    cursor: pointer;
+  }
+  .comment-input-container {
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+  }
+  
+  .comment-input-img {
+    background-size: 100%;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    margin: 0.8rem 0.5rem;
+  }
+  
